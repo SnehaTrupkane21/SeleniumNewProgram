@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-03T11:43:33 IST" name="Default suite" finished-at="2024-03-03T11:43:33 IST" duration-ms="141">
+  <suite started-at="2024-03-03T12:03:18 IST" name="Default suite" finished-at="2024-03-03T12:04:02 IST" duration-ms="43757">
     <groups>
     </groups>
-    <test started-at="2024-03-03T11:43:33 IST" name="Default test" finished-at="2024-03-03T11:43:33 IST" duration-ms="141">
-      <class name="SeleniumTestNG.PriorityKeyword2">
-        <test-method signature="z()[pri:-3, instance:SeleniumTestNG.PriorityKeyword2@fa49800]" started-at="2024-03-03T11:43:33 IST" name="z" finished-at="2024-03-03T11:43:33 IST" duration-ms="15" status="PASS">
+    <test started-at="2024-03-03T12:03:18 IST" name="Default test" finished-at="2024-03-03T12:04:02 IST" duration-ms="43757">
+      <class name="SeleniumTestNG.InvocationCount">
+        <test-method signature="chromeopen()[pri:0, instance:SeleniumTestNG.InvocationCount@3d6f0054]" started-at="2024-03-03T12:03:18 IST" name="chromeopen" finished-at="2024-03-03T12:03:29 IST" duration-ms="10585" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- z -->
-        <test-method signature="b()[pri:0, instance:SeleniumTestNG.PriorityKeyword2@fa49800]" started-at="2024-03-03T11:43:33 IST" name="b" finished-at="2024-03-03T11:43:33 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- chromeopen -->
+        <test-method signature="chromeopen()[pri:0, instance:SeleniumTestNG.InvocationCount@3d6f0054]" started-at="2024-03-03T12:03:29 IST" name="chromeopen" finished-at="2024-03-03T12:03:37 IST" duration-ms="8076" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- b -->
-        <test-method signature="Logout()[pri:1, instance:SeleniumTestNG.PriorityKeyword2@fa49800]" started-at="2024-03-03T11:43:33 IST" name="Logout" finished-at="2024-03-03T11:43:33 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- chromeopen -->
+        <test-method signature="chromeopen()[pri:0, instance:SeleniumTestNG.InvocationCount@3d6f0054]" started-at="2024-03-03T12:03:37 IST" name="chromeopen" finished-at="2024-03-03T12:03:54 IST" duration-ms="17048" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method signature="Login()[pri:2, instance:SeleniumTestNG.PriorityKeyword2@fa49800]" started-at="2024-03-03T11:43:33 IST" name="Login" finished-at="2024-03-03T11:43:33 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- chromeopen -->
+        <test-method signature="login()[pri:0, instance:SeleniumTestNG.InvocationCount@3d6f0054]" started-at="2024-03-03T12:03:54 IST" name="login" finished-at="2024-03-03T12:03:54 IST" duration-ms="484" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Home()[pri:3, instance:SeleniumTestNG.PriorityKeyword2@fa49800]" started-at="2024-03-03T11:43:33 IST" name="Home" finished-at="2024-03-03T11:43:33 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="loginbutton()[pri:0, instance:SeleniumTestNG.InvocationCount@3d6f0054]" started-at="2024-03-03T12:03:54 IST" name="loginbutton" finished-at="2024-03-03T12:03:54 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home -->
-        <test-method signature="ad()[pri:4000, instance:SeleniumTestNG.PriorityKeyword2@fa49800]" started-at="2024-03-03T11:43:33 IST" name="ad" finished-at="2024-03-03T11:43:33 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- loginbutton -->
+        <test-method signature="loginbutton()[pri:0, instance:SeleniumTestNG.InvocationCount@3d6f0054]" started-at="2024-03-03T12:03:54 IST" name="loginbutton" finished-at="2024-03-03T12:04:01 IST" duration-ms="6111" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ad -->
-      </class> <!-- SeleniumTestNG.PriorityKeyword2 -->
+        </test-method> <!-- loginbutton -->
+        <test-method signature="loginbutton()[pri:0, instance:SeleniumTestNG.InvocationCount@3d6f0054]" started-at="2024-03-03T12:04:01 IST" name="loginbutton" finished-at="2024-03-03T12:04:02 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbutton -->
+      </class> <!-- SeleniumTestNG.InvocationCount -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
