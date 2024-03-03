@@ -2,7 +2,7 @@ package SeleniumTestNG;
 
 import org.testng.annotations.Test;
 
-public class FirstProgram {
+public class LexicographicalOrder {
 	   @Test
 		public void Login()
 			{
